@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krupa's Portfolio</title>
+  <!--- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!-- SIDE BAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Krupa Gawde" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Krupa Gawde">Krupa Gawde</h1>
+          <p class="title">Full Stack Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:krupagawde26@example.com" class="contact-link">krupagawde26@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+12133522795" class="contact-link">+91(9689038275)</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Mumbai,India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="http://linkedin.com/in/krupagawde26" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/krups26" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="assets\images\KRUPA_GAWDE_Resume.pdf" class="social-link">
+              <ion-icon name="document-attach-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Main Content -->
+    <div class="main-content">
+      <!--- #NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+      <!--- #ABOUT-->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I'm a creative Full Stack Developer and recent B.E Computer Engineering graduate with a strong
+            foundation in building dynamic, scalable web applications.
+            Skilled in Python, Django, Flask, JavaScript, and front-end technologies like HTML, CSS, and React.
+            I enjoy solving real-world problems through code and am constantly learning new technologies to enhance
+            my skills.
+            I enjoy turning complex problems into simple, beautiful and intuitive designs.
+          </p>
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, add personal touch to your product and make sure that is eye-catching and easy to use.
+            I love turning ideas into functional digital solutions.
+          </p>
+        </section>
+        <!-- Service-->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/web-design.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design</h4>
+                <p class="service-item-text">
+                  Crafting visually engaging and user-friendly web experiences with a perfect blend of aesthetics and
+                  functionality.
+                  I specialize in creating responsive designs that adapt seamlessly to any device, ensuring an intuitive
+                  and memorable user journey. </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-python.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Development</h4>
+                <p class="service-item-text">
+                  Passionate about leveraging Python to build efficient, scalable solutions. With expertise in
+                  problem-solving, data analysis, and web development, I create clean, maintainable code that meets both
+                  user needs and business objectives. Constantly learning new libraries, frameworks, and tools, I strive
+                  to stay ahead of the curve in the ever-evolving world of technology.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">
+                  With a solid foundation in front-end and back-end technologies, I am specialize in building
+                  responsive, user-friendly websites and web applications.
+                  I have hands-on experience with HTML, CSS, JavaScript, and frameworks like React, as well as
+                  back-end development using Python (Django/Flask),
+                  and database management with MySQL.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/database.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Development</h4>
+                <p class="service-item-text">
+                  I specialize in designing, developing, and optimizing databases to ensure efficient data management
+                  and streamlined business processes. With experience in SQL, data modeling, and query optimization, I
+                  create reliable and scalable solutions tailored to the unique needs of businesses.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!--- Skills -->
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Skills</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/my-avatar.png" alt="Krupa" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>HTML - CSS</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Passionate in crafting responsive, user-friendly websites using HTML and CSS. By focusing on
+                    clean, semantic code, I ensure seamless layouts and a visually appealing experience across devices.
+                    I bring creative design concepts to life while adhering to best practices for performance and
+                    accessibility.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/my-avatar.png" alt="Krupa" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>JavaScript</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I have developed a strong foundation in JavaScript, focusing on building dynamic, responsive, and
+                    interactive web applications. My skills include both front-end development, using frameworks like
+                    React and plain JavaScript.With JavaScript, I bring websites to life, enabling seamless user
+                    experiences through real-time
+                    updates, animations, and intuitive interactivity. I leverage this versatile language to enhance both
+                    the front-end and back-end of websites, ensuring functionality and performance across all devices.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/my-avatar.png" alt="Krupa" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Python</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As a recent graduate with a passion for programming and problem-solving, I have developed strong
+                    skills in Python. My expertise spans data analysis, web development, and automation. I thrive on
+                    creating efficient, user-friendly solutions, and I'm excited to continue learning and growing as I
+                    tackle new challenges in the tech industry.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/my-avatar.png" alt="Krupa" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>SQL</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Developed a strong foundation in SQL, with hands-on experience in writing efficient queries,
+                    optimizing database performance, and managing data for various applications. My expertise includes
+                    working with relational databases, creating complex joins, and ensuring data integrity. I am
+                    passionate about transforming data into meaningful insights and am eager to apply my SQL skills in
+                    real-world projects to contribute to data-driven decision-making.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/my-avatar.png" alt="Krupa" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Data Structure & Algorithms</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Proficient in core concepts of Data Structures and Algorithms, including arrays, linked lists,
+                    stacks, queues, trees, graphs, and hash tables. Skilled in designing efficient algorithms for
+                    sorting, searching, and problem-solving using recursion and dynamic programming.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/my-avatar.png" alt="Krupa" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>C++</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Knowledge about C++ programming and a passion for solving complex problems. With hands-on experience
+                    in
+                    object-oriented programming, data structures, and algorithms, I enjoy building efficient, scalable
+                    solutions.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!-- testimonials modal -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <!-- #RESUME -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">University Of Mumbai</h4>
+              <span>2020 - 2024</span>
+              <p class="timeline-text">
+                I hold a Bachelor's of Engineering degree in Computer Engineering with<span>CGPA of
+                  8.76.</span>Throughout my
+                academic journey, I gained hands-on experience in programming, data structures, algorithms, and
+                problem-solving skills. I also developed a strong foundation in web development, database management,
+                and software engineering principles.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Viva College of Science</h4>
+              <span>2019 - 2020</span>
+              <p class="timeline-text">
+                I completed my Higher Secondary Education with a<span>percentage of 64.62%.</span>During this time, I
+                developed a passion for computer science and technology, which led me to pursue a career in software
+                development.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">National English School</h4>
+              <span>2018 - 2019</span>
+              <p class="timeline-text">
+                I completed my Secondary Education with a<span>percentage of 89.20%.</span>
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer Intern @ TATA Institute of Fundamental Research</h4>
+              <span>Jul 2022 - Aug 2022</span>
+              <p class="timeline-text">
+                Developed a web tool using Python Flask that automates the generation of PDF documents for events listed
+                on Indico events calendar on the institutes webpage, utilizing an HTTP API for data retrieval and a
+                PostgreSQL database for
+                storing event details, delivering tangible results and enhancing work flow efficiency.<br>
+                Technologies Used:<span>Python(Flask), PostgreSQL, Jinja Templating, HTML,CSS,JS.</span>
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python Full Stack Development - Ongoing Training
+              </h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                I am currently undergoing training in Python Full Stack development, where I am gaining expertise in
+                both front-end and back-end technologies. This comprehensive training covers key aspects such as web
+                frameworks (Django, Flask), database management, front-end development with HTML, CSS, and JavaScript,
+                and integrating these technologies to build robust, scalable web applications. Through hands-on
+                projects, I am learning how to develop dynamic user interfaces, manage databases, and ensure the overall
+                functionality of web applications, equipping myself to contribute effectively in the field of full-stack
+                development.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML - CSS</h5>
+                <data value="90">98%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 98%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+                <data value="95">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Flask</h5>
+                <data value="90">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Django</h5>
+                <data value="90">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">OOPS</h5>
+                <data value="90">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">DSA</h5>
+                <data value="90">65%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="90">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="90">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PowerBI</h5>
+                <data value="90">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!--- #PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web Design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Made with Python</button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select Category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web Design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Made with Python</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/krups26/Amazon-Clone.git">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="amazon-clone" loading="lazy">
+                </figure>
+                <h3 class="project-title">Amazon Clone</h3>
+                <p class="project-category">Web Design</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/krups26/Public-Health-Record-Management-System.git">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="public-health-record" loading="lazy">
+                </figure>
+                <h3 class="project-title">Public Health Record Management System</h3>
+                <p class="project-category">Web Development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/krups26/AirBnb.git">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="air-bnb" loading="lazy">
+                </figure>
+                <h3 class="project-title">AirBnB Clone</h3>
+                <p class="project-category">Web Design</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="made with python">
+              <a href="https://github.com/krups26/Tic-Tac-Toe.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="Tic Tac Toe" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tic Tac Toe</h3>
+                <p class="project-category">Made with Python</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/krups26/Happy-Tails.git">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pet Care</h3>
+                <p class="project-category">Web Design</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="made with python">
+              <a href="https://github.com/krups26/Spell-Checker.git">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-7.jpg" alt="spell-checker" loading="lazy">
+                </figure>
+                <h3 class="project-title">Spell Checker</h3>
+                <p class="project-category">Made with Python</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/krups26/Notifier.git">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Notifier</h3>
+                <p class="project-category">Web Development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="made with python">
+              <a href="https://github.com/krups26/Sign-Language-Recognition.git">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="sign-language" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sign Language Recognition System</h3>
+                <p class="project-category">Made with Python</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!--#BLOG-->
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://www.jetir.org/view?paper=JETIR2403804">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/paper-1.png" alt="IEEE paper" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">IEEE Paper</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">March 29, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">EMPOWERING INCLUSIVE COMMUNICATION: SIGN LANGUAGE RECOGNITION THROUGH
+                    COMPUTER VISION</h3>
+                  <p class="blog-text">
+                    Sign language serves as a communication bridge between normal and hard-of-hearing communities.
+                    People with difficulty communicating through speech rely on sign language to exchange language in
+                    society and with other people. Developing a sign language recognition system fills the communication
+                    gaps and enhances accessibility. Sign language recognition is a tool that can recognize and
+                    interpret hand gestures and convert them into text. </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!---CONTACT-->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311709.31841747765!2d72.71732652420624!3d19.200457615625314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1734939449892!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <a href="mailto:krupagawde26@example.com"></a><span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+  <script src="./assets/js/script.js"></script>
+  <!--- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
